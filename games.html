@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="icon" href="assets/favi.ico">
+  <meta name="description" content="PlayLoop games catalog — free-to-play with virtual coins only. March 2026.">
+  <title>Games — PlayLoop</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="pl-skip" href="#main">Skip to content</a>
+  <header class="pl-top">
+    <div class="pl-shell pl-top__in">
+      <a href="index.html" class="pl-brand" aria-label="PlayLoop home">
+        <img class="pl-brand__logo" src="assets/logo.webp" alt="PlayLoop" decoding="async">
+        <span class="pl-brand__name">PlayLoop</span>
+      </a>
+      <div style="display:flex;align-items:center;gap:.75rem">
+        <div class="pl-badge">Virtual coins only</div>
+        <button class="pl-burger" aria-label="Open menu" aria-expanded="false" aria-controls="pl-nav"><span></span><span></span><span></span></button>
+      </div>
+      <nav class="pl-nav" id="pl-nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="games.html" class="is-active">Games</a>
+        <a href="about.html">About</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="pl-page">
+    <div class="pl-shell">
+      <div class="pl-pageTitle" style="margin-bottom:1.1rem">
+        <div class="pl-kicker" style="justify-content:center;align-self:flex-start">
+          <strong>March 2026</strong> · Virtual coins only
+        </div>
+        <h1>Choose a lobby</h1>
+        <p class="pl-sectionP" style="margin-top:.2rem">
+          Filter the catalog, then open a title. Each game uses virtual coins inside the experience only.
+        </p>
+      </div>
+
+      <div class="pl-filterRow" role="toolbar" aria-label="Game category filters">
+        <button type="button" data-pl-filter="all" aria-pressed="true">All</button>
+        <button type="button" data-pl-filter="slots" aria-pressed="false">Slots</button>
+        <button type="button" data-pl-filter="roulette" aria-pressed="false">Roulette</button>
+        <button type="button" data-pl-filter="blackjack" aria-pressed="false">Blackjack</button>
+        <button type="button" data-pl-filter="poker" aria-pressed="false">Poker</button>
+        <button type="button" data-pl-filter="wheel" aria-pressed="false">Wheel</button>
+      </div>
+
+      <div class="pl-gameGrid" id="pl-list" style="margin-top:1.2rem" aria-label="Game list">
+        <a class="pl-gameCard pl-gameCard--tall" data-pl-cat="slots" href="games/slot-machine/index.html" aria-label="Play free: Neon Slots Vault Prime">
+          <img class="pl-gameCard__img" src="assets/game_card_slot.webp" alt="Neon Slots Vault Prime" loading="lazy" decoding="async">
+          <span class="pl-gameCard__cut" aria-hidden="true"></span>
+          <span class="pl-gameCard__glint" aria-hidden="true"></span>
+          <span class="pl-gameCard__content">
+            <span class="pl-gameCard__topRow">
+              <span class="pl-gameCard__label pl-gameCard__label--coins">Virtual Coins</span>
+            </span>
+            <h3 class="pl-gameCard__title">Neon Slots Vault Prime</h3>
+            <span class="pl-gameCard__bottom">
+              <span class="pl-gameCard__sub">Slots · Fast sessions</span>
+              <span class="pl-gameCard__btn" aria-hidden="true">Play Free</span>
+            </span>
+          </span>
+        </a>
+
+        <a class="pl-gameCard" data-pl-cat="roulette" href="games/roulette/index.html" aria-label="Play free: Golden Roulette Spin Max">
+          <img class="pl-gameCard__img" src="assets/roulette.webp" alt="Golden Roulette Spin Max" loading="lazy" decoding="async">
+          <span class="pl-gameCard__cut" aria-hidden="true"></span>
+          <span class="pl-gameCard__glint" aria-hidden="true"></span>
+          <span class="pl-gameCard__content">
+            <span class="pl-gameCard__topRow">
+              <span class="pl-gameCard__label pl-gameCard__label--free">Free Play</span>
+            </span>
+            <h3 class="pl-gameCard__title">Golden Roulette Spin Max</h3>
+            <span class="pl-gameCard__bottom">
+              <span class="pl-gameCard__sub">Roulette · Clean spins</span>
+              <span class="pl-gameCard__btn" aria-hidden="true">Play Free</span>
+            </span>
+          </span>
+        </a>
+
+        <a class="pl-gameCard" data-pl-cat="blackjack" href="games/blackjack/index.html" aria-label="Play free: Lucky Blackjack Pro">
+          <img class="pl-gameCard__img" src="assets/blackjack.webp" alt="Lucky Blackjack Pro" loading="lazy" decoding="async">
+          <span class="pl-gameCard__cut" aria-hidden="true"></span>
+          <span class="pl-gameCard__glint" aria-hidden="true"></span>
+          <span class="pl-gameCard__content">
+            <span class="pl-gameCard__topRow">
+              <span class="pl-gameCard__label pl-gameCard__label--coins">Virtual Coins</span>
+            </span>
+            <h3 class="pl-gameCard__title">Lucky Blackjack Pro</h3>
+            <span class="pl-gameCard__bottom">
+              <span class="pl-gameCard__sub">Blackjack · Quick tables</span>
+              <span class="pl-gameCard__btn" aria-hidden="true">Play Free</span>
+            </span>
+          </span>
+        </a>
+
+        <a class="pl-gameCard" data-pl-cat="poker" href="games/Texas-Holdem/index.html" aria-label="Play free: Royal Poker Hold'em Nova">
+          <img class="pl-gameCard__img" src="assets/poker.webp" alt="Royal Poker Hold'em Nova" loading="lazy" decoding="async">
+          <span class="pl-gameCard__cut" aria-hidden="true"></span>
+          <span class="pl-gameCard__glint" aria-hidden="true"></span>
+          <span class="pl-gameCard__content">
+            <span class="pl-gameCard__topRow">
+              <span class="pl-gameCard__label pl-gameCard__label--free">Free Play</span>
+            </span>
+            <h3 class="pl-gameCard__title">Royal Poker Hold'em Nova</h3>
+            <span class="pl-gameCard__bottom">
+              <span class="pl-gameCard__sub">Poker · Strategy rounds</span>
+              <span class="pl-gameCard__btn" aria-hidden="true">Play Free</span>
+            </span>
+          </span>
+        </a>
+
+        <a class="pl-gameCard pl-gameCard--tall" data-pl-cat="wheel" href="games/hi-lo-lounge/index.html" aria-label="Play free: Golden Wheel Hi-Lo Max">
+          <img class="pl-gameCard__img" src="assets/playing-card.webp" alt="Golden Wheel Hi-Lo Max" loading="lazy" decoding="async">
+          <span class="pl-gameCard__cut" aria-hidden="true"></span>
+          <span class="pl-gameCard__glint" aria-hidden="true"></span>
+          <span class="pl-gameCard__content">
+            <span class="pl-gameCard__topRow">
+              <span class="pl-gameCard__label pl-gameCard__label--coins">Virtual Coins</span>
+            </span>
+            <h3 class="pl-gameCard__title">Golden Wheel Hi-Lo Max</h3>
+            <span class="pl-gameCard__bottom">
+              <span class="pl-gameCard__sub">Wheel · Fast decisions</span>
+              <span class="pl-gameCard__btn" aria-hidden="true">Play Free</span>
+            </span>
+          </span>
+        </a>
+
+        <a class="pl-gameCard" data-pl-cat="poker" href="games/Baccarat/index.html" aria-label="Play free: Prism Poker Baccarat Royale">
+          <img class="pl-gameCard__img" src="assets/baccarat.webp" alt="Prism Poker Baccarat Royale" loading="lazy" decoding="async">
+          <span class="pl-gameCard__cut" aria-hidden="true"></span>
+          <span class="pl-gameCard__glint" aria-hidden="true"></span>
+          <span class="pl-gameCard__content">
+            <span class="pl-gameCard__topRow">
+              <span class="pl-gameCard__label pl-gameCard__label--coins">Virtual Coins</span>
+            </span>
+            <h3 class="pl-gameCard__title">Prism Poker Baccarat Royale</h3>
+            <span class="pl-gameCard__bottom">
+              <span class="pl-gameCard__sub">Poker · Royale pace</span>
+              <span class="pl-gameCard__btn" aria-hidden="true">Play Free</span>
+            </span>
+          </span>
+        </a>
+
+        <a class="pl-gameCard" data-pl-cat="wheel" href="games/lucky-flip-lounge/index.html" aria-label="Play free: Royal Wheel Lucky Flip Deluxe">
+          <img class="pl-gameCard__img" src="assets/game_back.webp" alt="Royal Wheel Lucky Flip Deluxe" loading="lazy" decoding="async">
+          <span class="pl-gameCard__cut" aria-hidden="true"></span>
+          <span class="pl-gameCard__glint" aria-hidden="true"></span>
+          <span class="pl-gameCard__content">
+            <span class="pl-gameCard__topRow">
+              <span class="pl-gameCard__label pl-gameCard__label--free">Free Play</span>
+            </span>
+            <h3 class="pl-gameCard__title">Royal Wheel Lucky Flip Deluxe</h3>
+            <span class="pl-gameCard__bottom">
+              <span class="pl-gameCard__sub">Wheel · Quick flips</span>
+              <span class="pl-gameCard__btn" aria-hidden="true">Play Free</span>
+            </span>
+          </span>
+        </a>
+
+        <a class="pl-gameCard" data-pl-cat="wheel" href="games/craps-game/index.html" aria-label="Play free: Prism Wheel Dice Stack">
+          <img class="pl-gameCard__img" src="assets/dice.webp" alt="Prism Wheel Dice Stack" loading="lazy" decoding="async">
+          <span class="pl-gameCard__cut" aria-hidden="true"></span>
+          <span class="pl-gameCard__glint" aria-hidden="true"></span>
+          <span class="pl-gameCard__content">
+            <span class="pl-gameCard__topRow">
+              <span class="pl-gameCard__label pl-gameCard__label--free">Free Play</span>
+            </span>
+            <h3 class="pl-gameCard__title">Prism Wheel Dice Stack</h3>
+            <span class="pl-gameCard__bottom">
+              <span class="pl-gameCard__sub">Wheel · Dice momentum</span>
+              <span class="pl-gameCard__btn" aria-hidden="true">Play Free</span>
+            </span>
+          </span>
+        </a>
+      </div>
+
+      <section class="pl-orient" aria-labelledby="guide-h">
+        <h2 id="guide-h">Catalog orientation</h2>
+        <p>Three simple steps to get playing.</p>
+        <ol>
+          <li>Tap a category to filter the list instantly.</li>
+          <li>Hover or focus a game card for lift and image emphasis.</li>
+          <li>Virtual coins stay inside the game. This lobby is free-to-play with no cash value.</li>
+        </ol>
+      </section>
+    </div>
+  </main>
+
+  <footer class="pl-foot" aria-label="PlayLoop footer">
+    <div class="pl-shell pl-foot__top">
+      <div class="pl-footBrand">
+        <img class="pl-footLogo" src="assets/logo.webp" alt="PlayLoop" decoding="async">
+        <span class="pl-footName">PlayLoop</span>
+      </div>
+      <div class="pl-footCols" aria-label="Footer links">
+        <div class="pl-footCol">
+          <h4 class="pl-footH4">Explore</h4>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+          <a href="faq.html">FAQ</a>
+        </div>
+        <div class="pl-footCol">
+          <h4 class="pl-footH4">Legal</h4>
+          <a href="privacy-policy.html">Privacy Policy</a>
+          <a href="terms-of-use.html">Terms of Use</a>
+          <a href="responsible-play.html">Responsible Play</a>
+        </div>
+      </div>
+    </div>
+    <div class="pl-shell pl-foot__bottom">
+      <p>PlayLoop is for entertainment only. Virtual coins and in-game credits are for fun inside linked games and have no cash value. Updated March 2026.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

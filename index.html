@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="icon" href="assets/favi.ico">
+  <meta name="description" content="PlayLoop — a premium, free-to-play social casino lounge with virtual coins only. March 2026.">
+  <title>PlayLoop — Play Free · Virtual Coins</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="pl-skip" href="#main">Skip to content</a>
+  <header class="pl-top">
+    <div class="pl-shell pl-top__in">
+      <a class="pl-brand" href="index.html" aria-label="PlayLoop home">
+        <img class="pl-brand__logo" src="assets/logo.webp" alt="PlayLoop" decoding="async">
+        <span class="pl-brand__name">PlayLoop</span>
+      </a>
+      <div style="display:flex;align-items:center;gap:.75rem">
+        <div class="pl-badge">Free-to-play · Virtual coins</div>
+        <button class="pl-burger" aria-label="Open menu" aria-expanded="false" aria-controls="pl-nav"><span></span><span></span><span></span></button>
+      </div>
+      <nav class="pl-nav" id="pl-nav" aria-label="Primary">
+        <a href="index.html" class="is-active">Home</a>
+        <a href="games.html">Games</a>
+        <a href="about.html">About</a>
+        <a href="responsible-play.html">Responsible Play</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="pl-hero pl-shell" aria-label="PlayLoop hero">
+      <div class="pl-heroGrid">
+        <div>
+          <div class="pl-kicker"><strong>March 2026</strong> · Virtual coins only</div>
+          <h1>PlayLoop is your <span class="pl-hl">loop-ready</span> social casino.</h1>
+          <p class="pl-lead">No purchases. No cash value. Just premium, image-led experiences inspired by Slots, Roulette, Blackjack, Poker, and Wheel — built for quick fun in your browser.</p>
+          <div class="pl-heroActions">
+            <a class="pl-btn pl-btn--primary" href="games.html">Play Free</a>
+            <a class="pl-btn pl-btn--ghost" href="faq.html">How it works</a>
+          </div>
+          <div class="pl-heroNote">Free-to-play · Virtual coins only · Entertainment inside linked games</div>
+        </div>
+
+        <div class="pl-portalWrap" aria-hidden="true">
+          <div class="pl-portal">
+            <div class="pl-portalRing"></div>
+            <div class="pl-portalCore"></div>
+            <div class="pl-portalFloat">Tap a lobby below</div>
+            <div class="pl-orbit">
+              <div class="pl-orbitItem" style="--pl-r:-26deg;--pl-d:155px"><img src="assets/game_card_slot.webp" alt="" /></div>
+              <div class="pl-orbitItem" style="--pl-r:12deg;--pl-d:165px"><img src="assets/roulette.webp" alt="" /></div>
+              <div class="pl-orbitItem" style="--pl-r:40deg;--pl-d:150px"><img src="assets/blackjack.webp" alt="" /></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pl-section pl-shell" aria-labelledby="featured-title">
+      <div class="pl-featuredHead">
+        <div>
+          <h2 id="featured-title">Featured loops</h2>
+          <p class="pl-sectionP">Premium game cards with art-first visuals and a single, clear action: launch free play.</p>
+        </div>
+        <a class="pl-inlineLink" href="games.html">See catalog <span aria-hidden="true">→</span></a>
+      </div>
+
+      <div class="pl-featuredGrid">
+        <a class="pl-gameCard pl-gameCard--tall" data-pl-cat="slots" href="games/slot-machine/index.html" aria-label="Play free: Neon Slots Vault Prime">
+          <img class="pl-gameCard__img" src="assets/game_card_slot.webp" alt="Neon Slots Vault Prime" loading="lazy" decoding="async">
+          <span class="pl-gameCard__cut" aria-hidden="true"></span>
+          <span class="pl-gameCard__glint" aria-hidden="true"></span>
+          <span class="pl-gameCard__content">
+            <span class="pl-gameCard__topRow">
+              <span class="pl-gameCard__label pl-gameCard__label--coins">Virtual Coins</span>
+            </span>
+            <h3 class="pl-gameCard__title">Neon Slots Vault Prime</h3>
+            <span class="pl-gameCard__bottom">
+              <span class="pl-gameCard__sub">Slots · Fast sessions</span>
+              <span class="pl-gameCard__btn" aria-hidden="true">Play Free</span>
+            </span>
+          </span>
+        </a>
+
+        <a class="pl-gameCard" data-pl-cat="roulette" href="games/roulette/index.html" aria-label="Play free: Golden Roulette Spin Max">
+          <img class="pl-gameCard__img" src="assets/roulette.webp" alt="Golden Roulette Spin Max" loading="lazy" decoding="async">
+          <span class="pl-gameCard__cut" aria-hidden="true"></span>
+          <span class="pl-gameCard__glint" aria-hidden="true"></span>
+          <span class="pl-gameCard__content">
+            <span class="pl-gameCard__topRow">
+              <span class="pl-gameCard__label pl-gameCard__label--free">Free Play</span>
+            </span>
+            <h3 class="pl-gameCard__title">Golden Roulette Spin Max</h3>
+            <span class="pl-gameCard__bottom">
+              <span class="pl-gameCard__sub">Roulette · Clean spins</span>
+              <span class="pl-gameCard__btn" aria-hidden="true">Play Free</span>
+            </span>
+          </span>
+        </a>
+
+        <a class="pl-gameCard" data-pl-cat="blackjack" href="games/blackjack/index.html" aria-label="Play free: Lucky Blackjack Pro">
+          <img class="pl-gameCard__img" src="assets/blackjack.webp" alt="Lucky Blackjack Pro" loading="lazy" decoding="async">
+          <span class="pl-gameCard__cut" aria-hidden="true"></span>
+          <span class="pl-gameCard__glint" aria-hidden="true"></span>
+          <span class="pl-gameCard__content">
+            <span class="pl-gameCard__topRow">
+              <span class="pl-gameCard__label pl-gameCard__label--coins">Virtual Coins</span>
+            </span>
+            <h3 class="pl-gameCard__title">Lucky Blackjack Pro</h3>
+            <span class="pl-gameCard__bottom">
+              <span class="pl-gameCard__sub">Blackjack · Quick tables</span>
+              <span class="pl-gameCard__btn" aria-hidden="true">Play Free</span>
+            </span>
+          </span>
+        </a>
+
+        <a class="pl-gameCard" data-pl-cat="poker" href="games/Texas-Holdem/index.html" aria-label="Play free: Royal Poker Hold'em Nova">
+          <img class="pl-gameCard__img" src="assets/poker.webp" alt="Royal Poker Hold'em Nova" loading="lazy" decoding="async">
+          <span class="pl-gameCard__cut" aria-hidden="true"></span>
+          <span class="pl-gameCard__glint" aria-hidden="true"></span>
+          <span class="pl-gameCard__content">
+            <span class="pl-gameCard__topRow">
+              <span class="pl-gameCard__label pl-gameCard__label--free">Free Play</span>
+            </span>
+            <h3 class="pl-gameCard__title">Royal Poker Hold'em Nova</h3>
+            <span class="pl-gameCard__bottom">
+              <span class="pl-gameCard__sub">Poker · Strategy rounds</span>
+              <span class="pl-gameCard__btn" aria-hidden="true">Play Free</span>
+            </span>
+          </span>
+        </a>
+
+        <a class="pl-gameCard pl-gameCard--tall" data-pl-cat="wheel" href="games/hi-lo-lounge/index.html" aria-label="Play free: Golden Wheel Hi-Lo Max">
+          <img class="pl-gameCard__img" src="assets/playing-card.webp" alt="Golden Wheel Hi-Lo Max" loading="lazy" decoding="async">
+          <span class="pl-gameCard__cut" aria-hidden="true"></span>
+          <span class="pl-gameCard__glint" aria-hidden="true"></span>
+          <span class="pl-gameCard__content">
+            <span class="pl-gameCard__topRow">
+              <span class="pl-gameCard__label pl-gameCard__label--coins">Virtual Coins</span>
+            </span>
+            <h3 class="pl-gameCard__title">Golden Wheel Hi-Lo Max</h3>
+            <span class="pl-gameCard__bottom">
+              <span class="pl-gameCard__sub">Wheel · Fast decisions</span>
+              <span class="pl-gameCard__btn" aria-hidden="true">Play Free</span>
+            </span>
+          </span>
+        </a>
+      </div>
+    </section>
+
+    <section class="pl-section pl-shell" aria-labelledby="cat-title">
+      <div class="pl-featuredHead" style="margin-bottom:.9rem">
+        <div>
+          <h2 id="cat-title">Pick your style</h2>
+          <p class="pl-sectionP">Jump straight into the catalog. Filter instantly by category.</p>
+        </div>
+      </div>
+
+      <div class="pl-catGrid">
+        <a class="pl-catBtn" href="games.html#slots" aria-label="Browse Slots">
+          <div class="pl-catName">Slots</div>
+          <div class="pl-catMeta">Vault reels & quick loops</div>
+          <div class="pl-catUnderline" aria-hidden="true"></div>
+        </a>
+        <a class="pl-catBtn" href="games.html#roulette" aria-label="Browse Roulette">
+          <div class="pl-catName">Roulette</div>
+          <div class="pl-catMeta">Crisp spins & golden rounds</div>
+          <div class="pl-catUnderline" aria-hidden="true"></div>
+        </a>
+        <a class="pl-catBtn" href="games.html#blackjack" aria-label="Browse Blackjack">
+          <div class="pl-catName">Blackjack</div>
+          <div class="pl-catMeta">Tables built for momentum</div>
+          <div class="pl-catUnderline" aria-hidden="true"></div>
+        </a>
+        <a class="pl-catBtn" href="games.html#poker" aria-label="Browse Poker">
+          <div class="pl-catName">Poker</div>
+          <div class="pl-catMeta">Hold'em flow with strategy</div>
+          <div class="pl-catUnderline" aria-hidden="true"></div>
+        </a>
+        <a class="pl-catBtn" href="games.html#wheel" aria-label="Browse Wheel">
+          <div class="pl-catName">Wheel</div>
+          <div class="pl-catMeta">Decisions that keep looping</div>
+          <div class="pl-catUnderline" aria-hidden="true"></div>
+        </a>
+      </div>
+    </section>
+
+    <section class="pl-section pl-shell pl-why" aria-labelledby="why-title">
+      <div class="pl-whyLayout">
+        <div class="pl-whyCard">
+          <h2 id="why-title">Why PlayLoop</h2>
+          <p>Premium visuals, clean controls, and a free-to-play stance powered by virtual coins only. We keep the experience focused on games, not clutter.</p>
+        </div>
+        <ul class="pl-whyList">
+          <li class="pl-whyItem">
+            <div class="pl-whyIcon" aria-hidden="true">🎴</div>
+            <div>
+              <strong>Art-first lobbies</strong>
+              <p style="margin:.35rem 0 0">Unique, image-led game cards designed for fast scanning and satisfying hover polish.</p>
+            </div>
+          </li>
+          <li class="pl-whyItem">
+            <div class="pl-whyIcon" aria-hidden="true">⚡</div>
+            <div>
+              <strong>Instant play</strong>
+              <p style="margin:.35rem 0 0">Open a title directly in your browser. No downloads or purchases required.</p>
+            </div>
+          </li>
+          <li class="pl-whyItem">
+            <div class="pl-whyIcon" aria-hidden="true">🔒</div>
+            <div>
+              <strong>Virtual coins only</strong>
+              <p style="margin:.35rem 0 0">All in-game credits stay inside linked experiences. No cash value and no payout language.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="pl-section pl-shell" aria-labelledby="faq-preview-title">
+      <div class="pl-featuredHead" style="margin-bottom:.6rem">
+        <div>
+          <h2 id="faq-preview-title">Quick answers</h2>
+          <p class="pl-sectionP">A lightweight preview of the policies and basics.</p>
+        </div>
+      </div>
+
+      <div class="pl-accordion">
+        <details>
+          <summary>What is PlayLoop?</summary>
+          <div class="pl-qa">PlayLoop is a premium, free-to-play social casino lounge that links to lightweight browser experiences. Virtual coins are used for entertainment inside each game.</div>
+        </details>
+        <details>
+          <summary>Is it free?</summary>
+          <div class="pl-qa">Yes. Browsing and launching linked games is free. Virtual coins only are used inside games, with no real-world value.</div>
+        </details>
+        <details>
+          <summary>Do virtual coins have cash value?</summary>
+          <div class="pl-qa">No. Virtual coins are simulated credits for in-game fun and progression. They cannot be cashed out and have no payout meaning.</div>
+        </details>
+      </div>
+
+      <a class="pl-inlineLink" href="faq.html">View full FAQ <span aria-hidden="true">→</span></a>
+    </section>
+
+    <section class="pl-ctaStrip" aria-label="Play free call to action">
+      <div class="pl-shell pl-ctaStrip__in">
+        <div>
+          <h3>Ready to loop again?</h3>
+          <p>Choose a category. Launch free play. Keep it virtual.</p>
+        </div>
+        <a class="pl-btn pl-btn--primary" href="games.html">Play Free</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pl-foot" aria-label="PlayLoop footer">
+    <div class="pl-shell pl-foot__top">
+      <div class="pl-footBrand">
+        <img class="pl-footLogo" src="assets/logo.webp" alt="PlayLoop" decoding="async">
+        <span class="pl-footName">PlayLoop</span>
+      </div>
+      <div class="pl-footCols" aria-label="Footer links">
+        <div class="pl-footCol">
+          <h4>Explore</h4>
+          <a href="games.html">Games</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+          <a href="faq.html">FAQ</a>
+        </div>
+        <div class="pl-footCol">
+          <h4>Legal</h4>
+          <a href="privacy-policy.html">Privacy Policy</a>
+          <a href="terms-of-use.html">Terms of Use</a>
+          <a href="responsible-play.html">Responsible Play</a>
+        </div>
+      </div>
+    </div>
+    <div class="pl-shell pl-foot__bottom">
+      <p>PlayLoop is for entertainment only. Virtual coins and in-game credits are for use inside linked games and have no cash value. Updated March 2026.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
